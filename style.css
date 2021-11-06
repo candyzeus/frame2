@@ -71,7 +71,7 @@ ul li a:hover{
 	display: flex;
 	justify-content: center;
 	height: 800px;
-	background: url(/image/cover.jpg) no-repeat;
+	background: url(image/cover.jpg) no-repeat;
 	background-size: cover;
 	background-position-x: center;
 }
