@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
         <title>ferm2</title>
     </head>
     <body>
@@ -11,13 +12,18 @@
                 <div class="logo">
                     <img src="image/Logo.png" alt="Logo">
                 </div>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">Sale</a></li>
-                    <li><a href="#">customer Care</a></li>
-                    <li><a href="#">Stockists</a></li>
-                </ul>
+                <div class="hamburger">
+                    <a href="#" class="ham-icon">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                    <ul class="dropdown">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Sale</a></li>
+                        <li><a href="#">customer Care</a></li>
+                        <li><a href="#">Stockists</a></li>
+                    </ul>
+                </div>
                 <div class="bag">
                     <a href="#">
                         <img src="image/bag_img.png" alt="bag">
@@ -43,10 +49,25 @@
                 </div>
                 <div class="contant4">
                     <div class="sale">
-                        <img src="image/left.png" alt="left">
-                        <img src="image/middle.png" alt="middle">
-                        <img src="image/right.png" alt="right">
+                        <div class="sale-left">
+                            <img src="image/left.png" alt="left">
+                        </div>
+                        <div class="sale-middle">
+                            <img src="image/middle.png" alt="middle">
+                        </div>
+                        <div class="sale-right">
+                            <img src="image/right.png" alt="right">
+                        </div>
                     </div>
+                    <button class="sale-btn">
+                        SALE
+                    </button>
+                    <button class="dress-btn">
+                        EDITOR'S PICKS
+                    </button>
+                    <button class="glass-btn">
+                        GET IN FOCUS
+                    </button>
                 </div>
             </main>
             <footer>
